@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        @import url("https://use.typekit.net/vae6ebx.css");
+    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="logo-container">
+                <img src="assets/Sk_logo.svg" alt="SK Logo" class="logo">
+            </div>
+            
+            <nav class="nav-menu">
+                <div class="nav-links">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#journey" class="nav-link">Journey</a>
+                </div>
+                <a href="assets/Sachin_Kumaar_Resume.pdf" target="_blank" rel="noopener noreferrer" class="resume-btn">
+                    Resume
+                    <svg class="download-icon" width="32" height="32" viewBox="0 0 32 32">
+                        <path d="M24 24v2H8v-2M16 6v14m-6-6l6 6 6-6" stroke="#161616" stroke-width="2"/>
+                    </svg>
+                </a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="hero-section">
+                <div class="hero-text">
+                    <h1>Hello! I am Sachin, UX Designer who loves <span class="highlight">Finance</span> & <span class="highlight">Psychology</span></h1>
+                    <p>Currently designing delightful experiences for complex use cases at Deloitte Digital</p>
+                </div>
+
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/jdgfsfzr.json"
+                                trigger="loop"
+                                delay="2000"
+                                colors="primary:#ffffff,secondary:#C7FF02"
+                                style="width:126px;height:126px">
+                            </lord-icon>
+                        </div>
+                        <span>User<br>Researcher</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/bomiazxt.json"
+                                trigger="loop"
+                                delay="2000"
+                                colors="primary:#ffffff,secondary:#C7FF02"
+                                style="width:126px;height:126px">
+                            </lord-icon>
+                        </div>
+                        <span>UI<br>Designer</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/okgbpdra.json"
+                                trigger="loop"
+                                delay="2000"
+                                colors="primary:#ffffff,secondary:#C7FF02"
+                                style="width:126px;height:126px">
+                            </lord-icon>
+                        </div>
+                        <span>Motion<br>Designer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-image">
+                <img src="assets/profilepic.png" alt="Sachin's Profile Picture">
+                <div class="image-overlay"></div>
+            </div>
+        </main>
+
+        <!-- After the main content -->
+        <section class="work-samples">
+            <div class="background-effects">
+                <div class="ellipse ellipse-1"></div>
+                <div class="ellipse ellipse-2"></div>
+                <div class="ellipse ellipse-3"></div>
+                <div class="ellipse ellipse-4"></div>
+            </div>
+            
+            <h2 class="section-title">Work Samples</h2>
+            
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-images">
+                        <img src="assets/project1-1.png" alt="Access Management" class="project-img">
+                        <img src="assets/project1-2.png" alt="Landing Page" class="project-img">
+                        <img src="assets/project1-3.png" alt="Plan Health Metrics" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-icon"></div>
+                        <h3>Retirement as Service-Platform</h3>
+                        <span class="project-date">Feb - Jun 2023</span>
+                    </div>
+                </div>
+                
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
